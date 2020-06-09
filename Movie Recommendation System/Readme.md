@@ -7,6 +7,6 @@ To use this program you need to follow naming guidelines:
 
 Movie_name (Release_year)
 
-#Requirements
+## Requirements
 You are needed to have a system with pandas library of python preinstalled. Also the dataset is needed
 to make the prediction!
