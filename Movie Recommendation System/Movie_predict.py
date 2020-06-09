@@ -27,18 +27,21 @@ movie_matrix = df.pivot_table(
 
 
 def predict(movie_name):
-    movie_user_ratings = movie_matrix[movie_name]
-    similar_to_movie = movie_matrix.corrwith(movie_user_ratings)
+    # if movie_name in movies_title[1]:
+    try:
+        movie_user_ratings = movie_matrix[movie_name]
+        similar_to_movie = movie_matrix.corrwith(movie_user_ratings)
 
-    corr_movie = pd.DataFrame(similar_to_movie, columns=['correlation'])
-    corr_movie.dropna(inplace=True)
+        corr_movie = pd.DataFrame(similar_to_movie, columns=['correlation'])
+        corr_movie.dropna(inplace=True)
 
-    corr_movie = corr_movie.join(ratings['no. of ratings'])
-    prediction = corr_movie[corr_movie['no. of ratings']
-                            > 100].sort_values('correlation', ascending=False)
-    print(prediction.head())
-    return prediction
+        corr_movie = corr_movie.join(ratings['no. of ratings'])
+        prediction = corr_movie[corr_movie['no. of ratings'] > 100].sort_values('correlation', ascending=False)
+        print(prediction.head())
+        return prediction
+    except KeyError:
+        print("Movie not present or guidelines not followed!")
 
 
-movie_name = input()
+movie_name = input("Enter movie name:")
 prediction = predict(movie_name)
