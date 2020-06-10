@@ -57,7 +57,7 @@ def gradient_descent(X, Y, learning_rate=0.1, max_iter=250):
 # Give your files here as X_train, Y_train
 theta, error_list = gradient_descent(X_train, Y_train)
 
-# To confirm that you model is working correctly uncomment following
+# To confirm that your model is working correctly uncomment following
 # plt.plot(error_list)
 # plt.title("This shows that our algorithm works correctly")
 # plt.show()
