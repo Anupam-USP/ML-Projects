@@ -78,4 +78,4 @@ def r2_score(Y, Y_):
     print(f"Your accuracy is {score * 100}%")
 
 
-(r2_score(Y_train, y_))
+r2_score(Y_train, y_)
