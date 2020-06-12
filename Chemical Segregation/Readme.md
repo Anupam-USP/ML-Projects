@@ -6,8 +6,6 @@ They are of better working as rather than iterating, I used the numpy modules. T
 Output is shown as a csv file with column name as label and divides the type of chemicals in either 
 **Type 0 or 1** group.
 
-## Requirements
-Python libraries like pandas, matplotlib and numpy are must to be installed.
 
 ### Cost function visualisation
 ![error](https://user-images.githubusercontent.com/56446640/84475934-ff8bef00-acaa-11ea-8256-bb9f7d4cca0f.png)
