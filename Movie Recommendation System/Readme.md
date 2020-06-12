@@ -5,7 +5,7 @@ but you need to mention the path.
 
 To use this program you need to follow naming guidelines:
 
-Movie_name (Release_year)
+`Movie_name (Release_year)`
 
 ## Requirements
 The dataset is needed to make the prediction!
