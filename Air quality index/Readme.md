@@ -14,3 +14,4 @@ Python libraries like pandas, matplotlib and numpy are must to be installed.
 
 
 As the error/cost function is continously decreasing we can conclude that linear regression model is correctly working.
+Accuracy of this model is **96%**.
