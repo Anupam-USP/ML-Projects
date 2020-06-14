@@ -29,8 +29,7 @@ Here are the list of projects I implemented  under the machine learning:
 4. [Movie Recommendation System](Movie%20Recommendation%20System/) : Tried with the help of pandas, to recreate
 youtube/google like recommendation system (Though with some constraints)
 
-
-**About Me:**
+#### About Me:
 You can follow me for projects on
 
 [LinkedIn](https://www.linkedin.com/in/anupam-usp-iiitnr/)
