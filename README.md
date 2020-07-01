@@ -28,6 +28,8 @@ Here are the list of projects I implemented  under the machine learning:
 3. [Instagram Collage](Instagram%20Collage/) : Tried to implement OpenCV methods to manipulate images
 4. [Movie Recommendation System](Movie%20Recommendation%20System/) : Tried with the help of pandas, to recreate
 youtube/google like recommendation system (Though with some constraints)
+5. [Movie review sentiment analysis](Movie%20review/): Analysis of the sentiments in movie review with Naive bayes classifier
+and nltk toolkit.
 
 #### About Me:
 You can follow me for projects on
