@@ -10,15 +10,17 @@ To run this project on your system, you need following softwares and python modu
 * Matplotlib
 * Pandas (For manipulating dataset)
 * OpenCV (For manipulating images)
- 
-If you don't have the above you can install the with following commands 
+* Sklearn (For implementing certain algorithms)
 
-(For linux you need to use `pip3` and for windows use `pip`)
+If you don't have the above you can install the with following commands
+
+(For Linux you need to use `pip3` and for windows use `pip`)
 ```
 pip3 install numpy
 pip3 install matplotlib
 pip3 install pandas
 pip3 install opencv-python
+pip3 install sklearn
 ```
 
 ## Projects
@@ -30,6 +32,7 @@ Here are the list of projects I implemented  under the machine learning:
 youtube/google like recommendation system (Though with some constraints)
 5. [Movie review sentiment analysis](Movie%20review/): Analysis of the sentiments in movie review with Naive bayes classifier
 and nltk toolkit.
+6. [Color Extraction](Color%20Extraction/): Extracting dominant colors from the given image using k-Means clustering.
 
 #### About Me:
 You can follow me for projects on
@@ -37,4 +40,3 @@ You can follow me for projects on
 [LinkedIn](https://www.linkedin.com/in/anupam-usp-iiitnr/)
 
 [Github](https://github.com/Anupam-USP)
-
