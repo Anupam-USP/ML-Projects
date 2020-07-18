@@ -5,9 +5,8 @@ These instructions will help you to build up the environment to build a copy of 
 ### Prerequisites
 To run this project on your system, you need following softwares and python module installed on your system:
 
-* [PyCharm](https://www.jetbrains.com/pycharm/)
-* Numpy
-* Matplotlib
+* Numpy (For mathematical formulations)
+* Matplotlib (For visualisation)
 * Pandas (For manipulating dataset)
 * OpenCV (For manipulating images)
 * Sklearn (For implementing certain algorithms)
