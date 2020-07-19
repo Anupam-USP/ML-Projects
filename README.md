@@ -32,6 +32,7 @@ youtube/google like recommendation system (Though with some constraints)
 5. [Movie review sentiment analysis](Movie%20review/): Analysis of the sentiments in movie review with **Naive bayes classifier**
 and nltk toolkit.
 6. [Color Extraction](Color%20Extraction/): Extracting dominant colors from the given image using **k-Means clustering**.
+7. [Automatic Codechef submission](Automatic%20codechef%20submission/): Automatic codechef submission with selenium.
 
 #### About Me:
 You can follow me for projects on
